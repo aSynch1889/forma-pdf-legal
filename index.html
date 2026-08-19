@@ -4,16 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Forma PDF Legal</title>
-  <style>
-    :root { color-scheme: light dark; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
-    a { color: #0066FF; }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Forma PDF</h1>
-  <p>Legal documents for the Forma PDF iOS app.</p>
-  <p><a href="privacy.html">Privacy Policy</a></p>
-  <p><a href="terms.html">Terms of Use</a></p>
+  <header class="nav">
+    <a class="brand" href="index.html"><span class="mark">F</span> Forma PDF</a>
+    <nav class="nav-links">
+      <a class="active" href="index.html">Legal</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="kicker">On-device scanning · App Store legal</div>
+    <h1>Policies written for the way Forma PDF actually works.</h1>
+    <p class="lede">Scans, OCR, and signatures stay on your iPhone or iPad. These pages explain privacy, permissions, and subscriptions in plain language.</p>
+    <div class="cards">
+      <a class="card" href="privacy.html">
+        <span class="chip">Privacy Policy</span>
+        <h2>What we collect — and what we never see.</h2>
+        <p>On-device processing, camera and photo access, Apple payments, and how to reach us.</p>
+      </a>
+      <a class="card" href="terms.html">
+        <span class="chip">Terms of Use</span>
+        <h2>Subscriptions, free limits, and your Apple ID.</h2>
+        <p>Auto-renew rules, lifetime unlock, and the license that applies when you use the app.</p>
+      </a>
+    </div>
+  </main>
+
+  <footer class="footer">© 2026 Forma PDF · support@evolly.app</footer>
 </body>
 </html>

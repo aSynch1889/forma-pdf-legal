@@ -3,25 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy - Forma PDF</title>
-  <style>
-    :root { color-scheme: light dark; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
-    h1, h2 { color: #0066FF; }
-    a { color: #0066FF; }
-  </style>
+  <title>Privacy Policy · Forma PDF</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Privacy Policy for Forma PDF</h1>
-  <p>Last updated: August 2026</p>
-  <h2>1. Data Processed Locally</h2>
-  <p>Forma PDF is built on an on-device architecture. Your scanned documents, images, signatures, and OCR recognition results are stored locally on your device and are never uploaded to our servers or third-party tracking services without your explicit action.</p>
-  <h2>2. Camera and Photos Permissions</h2>
-  <p>Camera and Photo Library permissions are exclusively used for document scanning, edge detection, and image importing.</p>
-  <h2>3. Subscriptions &amp; In-App Purchases</h2>
-  <p>All financial transactions are handled securely through Apple's StoreKit 2 and App Store ecosystem. We do not collect or store credit card details.</p>
-  <h2>4. Contact</h2>
-  <p>If you have any questions, please contact <a href="mailto:support@evolly.app">support@evolly.app</a>.</p>
-  <p><a href="index.html">Back</a></p>
+  <header class="nav">
+    <a class="brand" href="index.html"><span class="mark">F</span> Forma PDF</a>
+    <nav class="nav-links">
+      <a href="index.html">Legal</a>
+      <a class="active" href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <div class="doc-layout">
+    <aside class="toc">
+      <h3>On this page</h3>
+      <a href="#local">On-device data</a>
+      <a href="#permissions">Permissions</a>
+      <a href="#purchases">Purchases</a>
+      <a href="#ai">On-device tools</a>
+      <a href="#contact">Contact</a>
+    </aside>
+    <article class="paper">
+      <div class="kicker">Forma PDF</div>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Last updated: August 20, 2026</p>
+
+      <p>Forma PDF is a document scanner for iPhone and iPad. This policy describes how the app handles information. We designed the product so that your documents do not need to leave your device for core scanning, OCR, and signing.</p>
+
+      <h2 id="local">1. Data processed on your device</h2>
+      <p>Scanned pages, imported photos, PDF files, OCR text, signatures, folders, and app settings are stored in the app sandbox on your device. We do not operate a cloud document store for this app. We do not sell personal data.</p>
+      <ul>
+        <li>Documents are not uploaded by default.</li>
+        <li>There is no account required to scan or save files.</li>
+        <li>If you share a PDF through the iOS share sheet, that action is initiated by you and handled by Apple or the destination you choose.</li>
+      </ul>
+
+      <h2 id="permissions">2. Camera and Photos</h2>
+      <p>Camera access is used only to capture documents, codes, and related scan modes. Photo Library access is used only when you import an existing image. We do not use these permissions for advertising or background collection.</p>
+
+      <h2 id="purchases">3. Subscriptions and App Store payments</h2>
+      <p>In-app purchases are processed by Apple through StoreKit. We do not receive or store your credit card number. Apple may provide purchase status (for example, whether Pro is active) so the app can unlock features and restore purchases.</p>
+
+      <h2 id="ai">4. Text and math tools</h2>
+      <p>OCR and local text helpers run on device. They summarize or process text already on your device. They do not send your documents to a cloud model unless a future version discloses that change in this policy and in the app.</p>
+
+      <div class="note" id="contact">
+        <strong>Questions?</strong> Email <a href="mailto:support@evolly.app">support@evolly.app</a>. We will update this page if our practices change.
+      </div>
+    </article>
+  </div>
+
+  <footer class="footer">© 2026 Forma PDF · <a href="terms.html">Terms of Use</a></footer>
 </body>
 </html>
